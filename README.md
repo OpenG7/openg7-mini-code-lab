@@ -1,3 +1,5 @@
+![OpenG7 Platform](docs/assets/openg7-mini-code-lab.png)
+
 # OpenG7 Mini Code Lab
 
 Evaluation, training and specialization laboratory for North Mini Code within the OpenG7 sovereign AI ecosystem.
