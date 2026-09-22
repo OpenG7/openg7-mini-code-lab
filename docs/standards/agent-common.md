@@ -1,13 +1,3 @@
-# OpenG7 Mini Code Lab — consignes
-
-## Mission
-
-Expérimenter, entraîner et spécialiser North Mini Code à partir de trajectoires OpenG7 vérifiées.
-Dépôt de cadrage : aucun workspace applicatif ni manifest racine actuellement.
-Les APIs, dossiers et commandes du README sont des cibles à implémenter.
-
-<!-- openg7:common:start -->
-
 ## Socle commun OpenG7
 
 <!-- openg7-standard: 1 -->
@@ -38,35 +28,3 @@ Les APIs, dossiers et commandes du README sont des cibles à implémenter.
   effective ou un risque métier; elles ne recopient pas le socle.
 - Terminer par le diff, les contrôles applicables et `git diff --check`. Rapporter
   résultat, validations exécutées, limites et opérations restantes, sans faux succès.
-
-<!-- openg7:common:end -->
-
-## Périmètre local
-
-Le laboratoire possède datasets d’entraînement, expériences, adaptateurs et publication d’artefacts. Il réutilise AI Evals pour les évaluations et ne s’attribue aucun droit de production.
-
-- Exemple d’entraînement : source/licence, dépôt/commit, tâche, opérations permises, trajectoire, tests, revue, scan de secrets/données personnelles et lignée synthétique/teacher.
-- Ne pas assimiler exposition à du code non revu et apprentissage prouvé. Préférer des trajectoires acceptées et vérifiées.
-- Conserver le modèle de base immuable, versionner datasets, configuration, seeds, checkpoints et adaptateurs avec leur lignée.
-- Établir une baseline, entraîner, mesurer les régressions sur des partitions indépendantes via AI Evals. Récompenses vérifiables plutôt que préférence stylistique seule.
-- Borner calcul, stockage et durée des expériences; isoler les workloads. Toute publication exige évaluation, revue humaine, model card et provenance des artefacts.
-
-## Lectures selon la tâche
-
-<!-- prettier-ignore -->
-| Déclencheur | Référence |
-| --- | --- |
-| Frontière, nouveau module, dépendance | [Architecture](docs/ARCHITECTURE.md) |
-| datasets, entraînement, récompenses, évaluation et publication | Section correspondante du [README](README.md) |
-| Révision des consignes | [Standard](docs/standards/README.md) |
-
-## Validation
-
-Documentation/gouvernance : `node scripts/check-project-standards.mjs` et
-`git diff --check`. Pour du code, lire le manifest et la CI concernés; ne pas
-annoncer un lint, test ou build absent comme exécuté.
-
-## Maintenance
-
-Pour changer les consignes : [standard et budgets](docs/standards/README.md).
-Conserver le bloc commun synchronisé et les différences dans leur périmètre.
